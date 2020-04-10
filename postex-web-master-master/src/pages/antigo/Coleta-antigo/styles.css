@@ -1,0 +1,28 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    width: 100vw;
+    padding-bottom: 10vh;
+}
+.cont{
+    margin-top: 10vh;
+    background-color: #FFF;
+    padding: 20px;
+}
+.title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF8C00;
+
+}
+.FdBg{
+    background-color: #FF8C00;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+}

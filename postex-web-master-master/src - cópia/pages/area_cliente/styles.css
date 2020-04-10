@@ -1,0 +1,266 @@
+.bar{
+    margin-right: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    color: white;
+}
+a{
+    color: white;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.dividir{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.body-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 150px;
+}
+.logo{
+    size: auto;
+}
+.login{
+    width: 450px;
+    height: 550px;
+    background: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+.hh{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #FF8C00;
+}
+.usuario{
+    margin-top: 80px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: #023F65;
+}
+.input{
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FF8C00;
+    border-color: #FF8C00;
+    color: #333333;
+}
+.senha{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 25px;
+    color: #023F65;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.submit{
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: #FF8C00;
+    border-radius: 10px;
+    color: #023F65;
+}
+.submit2{
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 150px;
+    height: 50px;
+    background-color: #023F65;
+    border-radius: 10px;
+    color: #FF8C00;
+}
+.esqueci{
+    margin-top: 25px;
+    font-size: 18px;
+    color: #023F65;
+    display: flex;
+    justify-content: center;
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    width: 100vw;
+    padding-bottom: 10vh;
+}
+.cont{
+    margin-top: 10vh;
+    padding: 20px;
+background-color: #FFF;
+}
+.Franquia{
+    font-size: 28px;
+    font-weight: bold;
+    color: #FF8C00;
+    border-bottom: #023F65 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+.FdBg{
+    background-color: #FF8C00;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-weight: bold;
+}
+.titulologin{
+    color: #223981;
+    font-size: 22px;
+}
+.conteudo{
+    color:#90909d ;
+}
+.TXT{
+    color: #90909d;
+    font-size: 16px;
+
+}
+.TXTLabel{
+    color: #90909d;
+    font-size: 18px;
+    margin: 5px;
+    font-weight: bold;
+}
+.TXTArea{
+    color: #90909d;
+    font-size: 18px;
+    margin: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.lista{
+    color: #90909d;
+    font-size: 16px;
+    margin: 20px;
+}
+.divtxt{
+    padding: 10px;
+}
+.link{
+    color: #FF8C00;
+}
+.btnLag{
+    background-color: #FF8C00;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btnSac2{
+     background-color: #223981;
+     padding-top: 6px;
+     width: 300px;
+    padding-left: 133px;
+     color: #FFF;
+     font-weight: bold;
+     border-radius: 10px;
+ }
+.btnSac2:hover{
+    background-color: #223981;
+    padding-top: 6px;
+    width: 300px;
+    padding-left: 133px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btnSac1{
+    background-color: #223981;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btnSac1:hover{
+    background-color: #223981;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btnLag:hover{
+    background-color: #FF8C00;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.boxTXT{
+    color: #90909d;
+    font-size: 16px;
+    background-color: #eaeaea;
+    padding: 20px;
+    border-radius: 15px;
+}
+.mgTop20{
+    margin-top: 20px;
+}
+.divlogin{
+    width: 400px;
+    margin-top: 20px;
+    margin-left:auto;
+    padding-right: 15px;
+    margin-right: auto;
+    border-right-style: solid;
+}
+.divcadastrar{
+    width: 400px;
+    margin-top: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.input1{
+    margin-top: 10px;
+    max-width: 300px;
+}
+.input2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+.input3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+.vamosla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadastrou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #90909d;
+    font-size: 22px;
+}

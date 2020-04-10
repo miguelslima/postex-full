@@ -1,0 +1,204 @@
+.centro {
+	text-align: center;
+	width: 50%;
+}
+.progressDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0 !important;
+	width: unset !important;
+}
+.progressDivTXT {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 0 !important;
+	width: unset !important;
+}
+.etapa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 5vh;
+	border: 3px solid #003f64;
+	color: #003f64;
+	font-size: 3vh;
+	transition: all 0.5s;
+}
+.etapaT {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	width: 10vh;
+	color: #003f64;
+	font-size: 2.5vh;
+	transition: all 0.5s;
+	margin-right: 10vh;
+	margin-left: 10vh;
+	text-align: center;
+}
+.etapaAtivo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	width: 10vh;
+	border-radius: 5vh;
+	border: 3px solid #ff8c00;
+	color: #ff8c00;
+	font-size: 3vh;
+	transition: all 0.5s;
+}
+.etapaAtivoT {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 10vh;
+	width: 10vh;
+	color: #ff8c00;
+	font-size: 2.5vh;
+	transition: all 0.5s;
+	margin-right: 10vh;
+	margin-left: 10vh;
+	text-align: center;
+}
+.linha {
+	display: flex;
+	border-bottom: 3px solid #003f64;
+	width: 10vh;
+	transition: all 0.5s;
+}
+.linhaAtivo {
+	display: flex;
+	border-bottom: 3px solid #ff8c00;
+	width: 10vh;
+	transition: all 0.5s;
+}
+.proTXT {
+	font-size: 22px;
+	font-weight: bold;
+	color: #003f64;
+	transition: all 0.5s;
+}
+.proTXTAtive {
+	font-size: 22px;
+	font-weight: bold;
+	color: #ff8c00;
+	transition: all 0.5s;
+}
+.senha {
+	-webkit-text-security: disc;
+}
+.cont {
+	margin-top: 10vh;
+	order: 2;
+}
+.btnDiv{
+	margin-top: 50px;
+	text-align: right;
+}
+.btnDiv2{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.contForm {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.dpMeio {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+.dpDireita {
+	overflow: hidden;
+	display: block;
+	width: 0;
+	height: 80vh;
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+.dpEsquerda {
+	overflow: hidden;
+	display: block;
+	width: 0;
+	height: 80vh;
+	transition-property: width;
+	transition-duration: 0.5s;
+}
+.reg {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.mid {
+	width: 100%;
+}
+
+.btn-orange {
+	background-color: #ff8c00;
+	color: #fff;
+	font-weight: bold;
+	width: 250px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+}
+.btn-orange:hover {
+	background-color: #ff7c00;
+	color: #fff;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+	.btn-orange {
+		width: 100%;
+	}
+	.progressDiv {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.progressDivTXT {
+		justify-content: space-between;
+	}
+	.etapaAtivoT {
+		margin: 0;
+	}
+	.etapaT {
+		margin: 0;
+	}
+}
+
+@media (max-width: 500px) {
+	.etapaAtivoT {
+		font-size: 16px;
+		width: min-content;
+	}
+	.etapaT {
+		font-size: 16px;
+		width: min-content;
+	}
+}
+
+@media (max-width: 540px){
+	.cont{
+		margin-top: 15vh;
+	}
+}

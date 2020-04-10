@@ -1,0 +1,34 @@
+
+.bar{
+    font-size: 18px;
+    color: #808080;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+a{
+    color: #FF8C00;
+}
+.menuText{
+    font-weight: bold;
+}
+.navW{
+    background-color: #FFF;
+    display: flex;
+    height: 8vh;
+
+}
+.navBLinkW{
+    color: #FF8C00;
+    font-weight: bold;
+}
+.navBLink:hover{
+    color: #d3d3d3;
+    font-weight: bold;
+}
+.navBox{
+    margin-left: 40vw;
+}
+.logo{
+    height: 6vh;
+}

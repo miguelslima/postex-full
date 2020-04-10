@@ -1,0 +1,157 @@
+.centro{
+text-align: center;
+width: 50%;
+}
+.progressDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.progressDivTXT{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.etapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 5vh;
+    border: 3px solid #003F64;
+    color: #003F64;
+    font-size: 3vh;
+    transition: all 0.5s;
+}
+.etapaT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vh;
+    color: #003F64;
+    font-size: 2.5vh;
+    transition: all 0.5s;
+    margin-right: 10vh;
+    margin-left: 10vh;
+    text-align: center;
+}
+.etapaAtivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 5vh;
+    border: 3px solid #FF8C00;
+    color: #FF8C00;
+    font-size: 3vh;
+    transition: all 0.5s;
+
+}
+.etapaAtivoT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vh;
+    color: #FF8C00;
+    font-size: 2.5vh;
+    transition: all 0.5s;
+    margin-right: 10vh;
+    margin-left:10vh;
+    text-align: center;
+
+}
+.linha{
+    display: flex;
+    border-bottom: 3px solid #003F64;
+    width: 10vh;
+    transition: all 0.5s;
+}
+.linhaAtivo{
+    display: flex;
+    border-bottom: 3px solid #FF8C00;
+    width: 10vh;
+    transition: all 0.5s;
+}
+.proTXT{
+    font-size: 22px;
+    font-weight: bold;
+    color: #003F64;
+    transition: all 0.5s;
+}
+.proTXTAtive{
+    font-size: 22px;
+    font-weight: bold;
+    color: #FF8C00;
+    transition: all 0.5s;
+}
+.senha{
+    -webkit-text-security: disc;
+     
+}
+.cont{
+    margin-top: 15vh;
+    order: 2;
+}
+.btnDiv{
+    margin-top: 50px;
+    text-align: right;
+}
+.contForm{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dpMeio{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 80vh;
+     transition-property: width;
+    transition-duration: 0.5s;
+}
+.dpDireita{
+    overflow: hidden;
+    display: block;
+    width: 0;  
+    height: 80vh;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.dpEsquerda{
+    overflow: hidden;
+    display: block;
+    width: 0;
+    height: 80vh;
+    transition-property: width;
+    transition-duration: 0.5s;
+}
+.reg{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.mid{
+    width: 110vh;
+}
+
+
+
+
+
+
+
+
+

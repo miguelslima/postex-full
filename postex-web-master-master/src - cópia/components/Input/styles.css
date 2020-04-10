@@ -1,0 +1,59 @@
+.left{
+text-align: left;
+margin: 20px 0px 20px 0px;
+display: flex;
+justify-content: left;
+align-items: flex-start;
+flex-direction: column;
+}
+.inputfloat{
+    margin: 0;
+    border: 0px transparent;
+    border-bottom: 1px solid #FF8C00;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+}
+.labelfloat{
+    margin: 0;
+    position: relative;
+    bottom: -30px;
+    transition: all 0.5s;
+    color: #626262;
+    opacity: 0.6;
+    width: 100%;
+    text-align: left;
+}
+.labelfloatAtive{
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    transition: all 0.5s;
+    color: #FF8C00;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    
+}
+.labelfloatError{
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    transition: all 0.5s;
+    color: #ff0000;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+}
+.inputfloatError{
+    margin: 0;
+    border: 0px transparent;
+    border-bottom: 1px solid #ff0000;
+    color: #ff0000;
+    height: 30px;
+    width: 100%;
+}
+.error{
+    color: #ff0000;
+    font-size: 16px;
+}

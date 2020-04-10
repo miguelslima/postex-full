@@ -1,0 +1,147 @@
+button {
+	border: transparent;
+	background-color: transparent;
+}
+.btn-orange {
+	background-color: #ff8c00;
+	color: #fff;
+	font-weight: bold;
+	width: 250px;
+	padding: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+.btn-orange:hover {
+	background-color: #ff7c00;
+	color: #fff;
+	text-decoration: none;
+}
+.btn-orange-radius {
+	margin: 10px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #ff8c00;
+	border-radius: 20px;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+}
+.btn-blue-flat {
+	margin: 10px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #31639c;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+}
+.btn-blue-flat:hover {
+	margin: 10px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #31639c;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+}
+
+.btn-red-outline {
+	margin: 10px;
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	border-radius: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: transparent;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+	transition: all 1s;
+}
+.btn-red-outline:hover {
+	margin: 10px;
+	color: #fff;
+	border: 1px solid #ff0000;
+	border-radius: 20px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #ff0000;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+	transition: all 1s;
+}
+.btn-blue-outline-rev:hover {
+	margin: 10px;
+	color: #004065;
+	border: 1px solid #004065;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: transparent;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+	transition: all 0.5s;
+}
+
+.btn-blue-outline {
+	margin: 10px;
+	color: #004065;
+	border: 1px solid #004065;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: transparent;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+	transition: all 0.5s;
+}
+.btn-blue-outline:hover {
+	margin: 10px;
+	color: #fff;
+	border: 1px solid #004065;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #004065;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+	transition: all 0.5s;
+}
+.btn-blue-outline-rev {
+	margin: 10px;
+	color: #fff;
+	border: 1px solid #004065;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #004065;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	width: auto;
+	transition: all 0.5s;
+}
+@media (max-width: 768px) {
+	.btn-voltar {
+		margin-bottom: 10px;
+	}
+}

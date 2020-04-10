@@ -1,0 +1,42 @@
+.PDF{
+    width: 595.28px;
+    height: 841px;
+    border: #d3d3d3 solid 2px;
+}
+.bord{
+    border-top: #023F65 solid 420.1px;
+    border-bottom: #FF8C00  solid 420.1px;
+    
+}
+.meio{
+    position: absolute;
+    height: 772px;
+    width: 595.28px;
+    border-radius: 50px 0 50px 0;
+    background-color: #FFF;
+    margin-top: 30px;
+    
+}
+.logoDiv{
+    width: 595.28px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 200px;
+}
+.container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.titulo{
+    color: #FF8C00;
+    font-size: 28px;
+    font-weight: bold;
+    border-bottom: #FF8C00 solid 5px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 3px;
+}
